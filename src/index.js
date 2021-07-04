@@ -129,6 +129,9 @@ let celsiusTemp = null;
 let formInput = document.querySelector("#search-form");
 formInput.addEventListener("submit", submitSearch);
 
+let buttonInput = document.querySelector("#button");
+buttonInput.addEventListener("click", submitSearch);
+
 let fahrenheitLink = document.querySelector("#linkFahrenheitDay");
 fahrenheitLink.addEventListener("click", showFahrenheitTemp);
 
